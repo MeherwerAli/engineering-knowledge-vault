@@ -1,0 +1,15 @@
+{
+  "name": "engineering-knowledge-vault",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A validated Obsidian starter for engineering decisions, runbooks, patterns, and reviews.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/*.test.mjs",
+    "validate": "node scripts/validate-vault.mjs .",
+    "verify": "npm run test && npm run validate"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
